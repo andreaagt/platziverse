@@ -4,7 +4,7 @@
   "description": "A Simple IoT Platform - DB Module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "DEBUG=platziverse:* node setup.js",
     "lint": "standard"
   },
   "repository": {
@@ -21,6 +21,7 @@
     "standard": "^16.0.4"
   },
   "dependencies": {
+    "debug": "^4.3.3",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.12.0"
